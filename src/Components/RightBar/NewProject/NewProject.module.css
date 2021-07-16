@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+.rightBarHeader{
+    font-size: 20px;
+    color:#03e9f4;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.rightBarContentContainer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rightBarContent{
+    display: flex;
+    color:#03e9f4;
+    text-decoration: none;
+    padding-top: 10px;
+    border-bottom: 1px dotted #03e9f4;
+    transition: all 0.1s linear;
+}
+.rightBarContent img{
+    padding-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+.rightBarContent:hover{
+    font-weight: 700;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+.active{
+    font-weight: 700;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+.newProject{
+    margin-bottom: 20px;
+}
+.rightBarContentContainer button{
+    width: 100%;
+    display: inline-block;
+    padding: 2px 10px;
+    color: #050801;
+    background: #03e9f4;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    transition: all 0.1s linear;
+}
+.rightBarContentContainer button:hover{
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}

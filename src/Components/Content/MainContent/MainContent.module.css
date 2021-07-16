@@ -1,0 +1,42 @@
+.mainContent{
+  background: #050801;
+}
+.button{
+    display: inline-block;
+    margin-left: 3px;
+}
+.btn1{
+  padding: 5px;
+  background: #03e9f4;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  border: none;
+  border-radius: 2px;
+}
+.btn1:hover{
+  box-shadow: 0 0 5px #03e9f4,
+  0 0 25px #03e9f4,
+  0 0 50px #03e9f4,
+  0 0 200px #03e9f4;
+-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.active button{
+  font-weight: 900;
+  box-shadow: 0 0 5px #03e9f4,
+  0 0 25px #03e9f4,
+  0 0 50px #03e9f4,
+  0 0 200px #03e9f4;
+-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.butAll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+@media (max-width:600px){
+  .btn1{
+    padding: 8px;
+  }
+}

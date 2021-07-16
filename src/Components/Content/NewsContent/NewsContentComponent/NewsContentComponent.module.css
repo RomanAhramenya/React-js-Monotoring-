@@ -1,0 +1,28 @@
+.img img{
+    width: 20vw;
+    height: 10vw;
+}
+.img{
+    margin-right: 10px;
+}
+.container{
+    display: flex;
+    text-decoration: none;
+    border:dotted 1px #03e9f4;
+}
+.container:hover{
+    border:dotted 1px  #03e9f4;
+}
+.container h1 {
+    font-size: 18px;
+    color: #03e9f4;
+    margin: 0;
+}
+.time{
+    font-size: 12px;
+    color: #03e8f46e;
+}
+.text{
+    color: #03e9f4;
+    font-size: 15px;
+}

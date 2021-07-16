@@ -1,0 +1,10 @@
+.rightBar{
+    grid-area: rightBar;
+    background: #050801;
+    border-left: #03e9f4 solid 1px;
+}
+@media (max-width:600px){
+    .rightBar{
+        display: none;
+    }
+}

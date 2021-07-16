@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+.container{
+    grid-area: api;
+    width: 100%;
+    background: #050801;
+    border-top: 1px solid #03e9f4;
+    justify-content: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: #03e9f4;
+    font-size: 1vw;
+}
+.spanContainer{
+display: inline-block;
+padding: 0 20px;
+font-weight: 500;
+}
+.price{
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgba(9, 255, 1, 0.808);
+    letter-spacing: 1px;
+}
+.usd{
+    font-weight: 500;
+    letter-spacing:normal;
+    color: rgba(9, 255, 1, 0.808);
+    text-shadow: 0 0 5px rgba(9, 255, 1, 0.808),
+                0 0 25px rgba(9, 255, 1, 0.808),
+                0 0 50px rgba(9, 255, 1, 0.808),
+                0 0 200px rgba(9, 255, 1, 0.808);
+}
+@media(max-width:600px){
+    .text{
+        display: none;
+    }
+    .spanContainer{
+        font-size: 10px;
+        padding: 3px;
+    }
+    .container{
+        overflow: hidden;
+        height:20px;
+    }
+}
